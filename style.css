@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #252525;
+  text-align: center;
+}
+
+header {
+  font-family: "Roboto Slab", serif;
+  position: sticky;
+  top: 0;
+  font-size: 32px;
+  background-color: #1d1d1d;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+header img {
+  width: 3rem;
+}
+
+header .navMain {
+  background-color: #e20000;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.603);
+}
+
+input {
+  width: 30%;
+  height: 50px;
+  font-size: 24px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.37);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  color: white;
+  font-size: 24px;
+}
+
+article {
+  font-family: "Roboto Slab", serif;
+  font-size: 42px;
+  margin: 1%;
+  padding-top: 1%;
+}
+
+p {
+  font: "arial";
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align:justify;
+}
+
+li {
+  list-style-type: none;
+}
+
+footer {
+  background-color: #1d1d1d;
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 10%;
+  padding: 1%;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.603), 0px -5px 5px rgba(0, 0, 0, 0.603);
+}
+
+.navHead {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navMain a {
+  color: white;
+  text-decoration: none;
+}
+
+.navHead a:hover {
+  text-decoration: underline;
+  transition: 1s;
+}
+
+.logo {
+  width: 6rem;
+  margin: 0px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+}
+
+.products {
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 2%;
+}
+
+.productHover:hover {
+  transition: 0.5s;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.89);
+}
+
+.banner img {
+  margin: 2%;
+  flex: 0 1 auto;
+  width: 60%;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.603);
+}
+
+.featured img {
+  flex: 0 1 auto;
+  width: 40%;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.603);
+}
+
+.products img {
+  width: 15%;
+  margin: 1%;
+  transition: 0.5s;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.603);
+}
+
+.shirtsDropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.shirtsDropdown-content {
+  display: none;
+  flex-wrap: wrap;
+  position: absolute;
+  background-color: #1d1d1d;
+  width: 20vh;
+  height: 800%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.603);
+  padding: 12px 16px;
+  /*z-index: 1;*/
+}
+
+.shirtsDropdown-content a:hover {
+  text-decoration: underline;
+}
+
+.shirtsDropdown:hover .shirtsDropdown-content {
+  display: block;
+  display: flex;
+}
+
+.longsleevesDropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.longsleevesDropdown-content {
+  display: none;
+  flex-wrap: wrap;
+  position: absolute;
+  background-color: #1d1d1d;
+  width: 20vh;
+  height: 800%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.603);
+  padding: 12px 16px;
+  /*z-index: 1;*/
+}
+
+.longsleevesDropdown-content a:hover {
+  text-decoration: underline;
+}
+
+.longsleevesDropdown:hover .longsleevesDropdown-content {
+  display: block;
+  display: flex;
+}
+
+.hoodiesDropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.hoodiesDropdown-content {
+  display: none;
+  flex-wrap: wrap;
+  position: absolute;
+  background-color: #1d1d1d;
+  width: 20vh;
+  height: 800%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.603);
+  padding: 12px 16px;
+  /*z-index: 1;*/
+}
+
+.hoodiesDropdown-content a:hover {
+  text-decoration: underline;
+}
+
+.hoodiesDropdown:hover .hoodiesDropdown-content {
+  display: block;
+  display: flex;
+}
+
+.patchesDropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.patchesDropdown-content {
+  display: none;
+  flex-wrap: wrap;
+  position: absolute;
+  background-color: #1d1d1d;
+  width: 20vh;
+  height: 800%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.603);
+  padding: 12px 16px;
+  /*z-index: 1;*/
+}
+
+.patchesDropdown-content a:hover {
+  text-decoration: underline;
+}
+
+.patchesDropdown:hover .patchesDropdown-content {
+  display: block;
+  display: flex;
+}
+
+@media (max-width: 950px) {
+  header input {
+    width: 10%;
+  }
+  header img {
+    display: none;
+  }
+}
+
