@@ -287,17 +287,6 @@ footer {
   padding-top: 5%;
 }
 
-.purchaseButton a:hover {
-  text-decoration: underline;
-}
-
-.purchaseButton a {
-  float: left;
-  padding-left: 3%;
-  padding-top: 1.5%;
-  font-size: 150%;
-}
-
 .musicPreview {
   padding-top: 10%;
   float: left;
@@ -311,10 +300,21 @@ footer {
 
 .select {
   float: left;
-  padding-left: 5%;
   padding-top: 2%;
+  padding-left: 4.5%;
   font-size: 100%;
+  width: 29%;
 }
+
+.select a {
+  font-size: 150%;
+  padding-left: 15%;
+}
+
+.select a:hover {
+  text-decoration: underline;
+}
+
 
 h1 {
   font-size: 200%;
