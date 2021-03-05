@@ -17,7 +17,7 @@ header {
   position: sticky;
   top: 0;
   font-size: 32px;
-  background-color: #1d1d1d;
+  background-color: #131313;
   color: white;
   text-align: center;
   text-decoration: none;
@@ -79,7 +79,6 @@ li {
 footer {
   background-color: #1d1d1d;
   color: white;
-  font-size: 32px;
   text-align: center;
   margin-top: 20%;
   padding: 1%;
@@ -277,7 +276,6 @@ footer {
 
 .productContainer {
   padding-left: 25%;
-
 }
 
 .product img {
@@ -285,6 +283,7 @@ footer {
   float: left;
   padding-left: 5%;
   padding-top: 5%;
+  padding-right: 5%;
 }
 
 .musicPreview {
@@ -295,28 +294,26 @@ footer {
 .productInfo {
   width: 30%;
   padding-top: 5%;
-  padding-left: 5%;
+  padding-left: 1%;
 }
 
-.select {
+.productContainer .select {
   float: left;
   padding-top: 2%;
-  padding-left: 4.5%;
   font-size: 100%;
-  width: 29%;
+  width: 30%;
 }
 
 .select a {
   font-size: 150%;
-  padding-left: 15%;
+  padding-left: 12%;
 }
 
 .select a:hover {
   text-decoration: underline;
 }
 
-
-h1 {
+.productContainer h1 {
   font-size: 200%;
   float: center;
   padding-right: 35%;
@@ -339,8 +336,27 @@ h1 {
     font-size: 20%;
   }
 
-  h1 {
+  .productContainer h1 {
     font-size: 100%;
+  }
+
+  .select {
+    float: left;
+    font-size: 30%;
+    width: 29%;
+  }
+
+  .select select {
+    width: 10%;
+  }
+
+  .select a {
+    font-size: 40%;
+    
+  }
+
+  footer {
+    font-size: 10%;
   }
 
 }
