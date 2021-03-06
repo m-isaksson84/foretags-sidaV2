@@ -337,26 +337,24 @@ footer {
   }
 
   .productContainer h1 {
+    font-size: 70%;
+  }
+
+  .select label {
     font-size: 100%;
   }
 
-  .select {
-    float: left;
-    font-size: 30%;
-    width: 29%;
-  }
-
   .select select {
-    width: 10%;
+    width: 80%;
   }
 
   .select a {
     font-size: 40%;
-    
   }
 
-  footer {
-    font-size: 10%;
+  footer p {
+    font-size: 70%;
+    width: 80%;
   }
 
 }
